@@ -1,0 +1,56 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f0f4ff, #dfe9f3);
+  min-height: 100vh;
+}
+
+h1 {
+  color: #4a4aef;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #4a4aef;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #3737d6;
+}
+
+.result {
+  margin-top: 30px;
+  padding: 20px;
+  background: #eaf4ff;
+  border-left: 5px solid #4a4aef;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: left;
+}
